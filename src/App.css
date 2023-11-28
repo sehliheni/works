@@ -1,0 +1,19 @@
+.foot {
+  background-color: rgb(250, 0, 0);
+color: rgb(255, 255, 255);
+text-align: center;
+background-image:url('https://sport.tunisienumerique.com/wp-content/uploads/2020/11/club-africain-768x385.jpg');
+  background-size: cover;
+}
+
+.cardplay {
+display: flex;
+justify-content: space-around;
+margin: auto;
+background-color: rgba(255, 255, 255, 0.181);
+}
+body{
+  background-image:url('https://sport.tunisienumerique.com/wp-content/uploads/2020/11/club-africain-768x385.jpg');
+  background-size: cover;
+  height: 300px;
+}

@@ -19,6 +19,8 @@ function App() {
     || 
     elm.rate.includes(filt));
   }
+  
+  
 return (
     <div>
       <h1 className='header'>TunFlix</h1>
@@ -32,6 +34,7 @@ return (
             <label className='Search-label'>Search.......</label>
       </div>
     <Movie  movies={search(movies)}/>
+    
     </div>
   );
 }

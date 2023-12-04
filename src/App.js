@@ -1,18 +1,38 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
-import Playerlist from './cont/Playerlist';
-import {players} from './cont/data'
-
-
+import React from 'react';
+import {movies} from './cont/Data'
+import { useState } from 'react';
+import Movie from './cont/Movie';
 
 function App() {
-  return (
-    <div className="foot">
-      <header>
-      <h1>Club Africain</h1>
-      </header>
-      <Playerlist players={players} />
+  //react states
+  const  [filt, setfilt] = useState("");
+  //input value
+  const oks = (e) => {
+    setfilt(e.target.value)
+  } 
+  //search evant
+  const search = (movies) =>{
+    return movies.filter(elm => 
+    elm.name.toLowerCase().includes(filt) 
+    || 
+    elm.rate.includes(filt));
+  }
+return (
+    <div>
+      <h1 className='header'>TunFlix</h1>
+      <div className='form'>
+            <input 
+              className='search-bar'
+              type='search'
+              onChange={oks} 
+              />
+            
+            <label className='Search-label'>Search.......</label>
       </div>
+    <Movie  movies={search(movies)}/>
+    </div>
   );
 }
 

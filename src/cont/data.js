@@ -1,28 +1,50 @@
-export const players = [
+// movies data
+export const movies =[
     {
-    name: "tayeb mezyen",
-    team: "club africain",
-    age:"27 years-old",
-    imageUrl:
-"https://scontent.ftun16-1.fna.fbcdn.net/v/t39.30808-6/402914869_906752970808557_3518233926246158990_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=330dLmlbcEgAX8Rcpok&_nc_ht=scontent.ftun16-1.fna&oh=00_AfC8NYFhvaA5v0-F_lfrxRC1_yFoKV3uOPfJel3Ej4J_pQ&oe=6568AA94"},
+        name :'Suzume(2023)',
+        rate :"5",
+        Imag :"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRFbSOeujqWYX5xfu4rvmOxTvddOnoMHrcbOtzxR1PhCdJubDGp"
+    }
+,
+    {
+        name :'weathering with you()2020',
+        rate :'4.9',
+        Imag :'https://m.media-amazon.com/images/M/MV5BMDhjOTcyODctZDIwMS00N2Q1LWE2YjQtMzVmMTkwMzM0NDA4XkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg'
+    }
+,
 {
-    name:"Bassem Srarfi",
-    team:"club africain",
-    age:"26 years-old",
-    imageUrl:
-"https://clubafricain.com/wp-content/uploads/2023/09/4-300x300.png"},
+    name :'Your Name(2016)',
+    rate :'4.5',
+    Imag :'https://m.media-amazon.com/images/M/MV5BNGYyNmI3M2YtNzYzZS00OTViLTkxYjAtZDIyZmE1Y2U1ZmQ2XkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg'
+}
+,
 {
-    name :"ghaith sghaier ",
-    team :"club africain",
-    age :"28 years-old ",
-    imageUrl :
-"https://clubafricain.com/wp-content/uploads/2023/09/27.png"},
+    name :'one piece Red',
+    rate :'9',
+    Imag :'https://fr.web.img4.acsta.net/pictures/22/06/08/13/18/5161934.jpg'
+}
+,
 {
-name :"Hamdi labidi ",
-team :"club africain",
-age :"21 years-old ",
-imageUrl :
-"https://pbs.twimg.com/media/FySDAWaWIAYLwjg?format=jpg&name=900x900"}
-
-
-];
+    name :'black clover',
+    rate :'8',
+    Imag :'https://m.media-amazon.com/images/M/MV5BMjU0MWMzNTctMjM5MC00MmVhLWIzZjQtYzk3OGRiYjQ2NDk2XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg'
+}
+,
+{
+    name :'bleach',
+    rate :'7.5',
+    Imag :'https://m.media-amazon.com/images/M/MV5BZWI1MTkxMmQtNjgyZC00YjhhLTlhZGQtYzcwODg5MDkzMjYzXkEyXkFqcGdeQXVyMTA3OTEyODI1._V1_.jpg'
+}
+,
+{
+    name :'blue lock',
+    rate :'9.8',
+    Imag :'https://m.media-amazon.com/images/I/711EvspH1DL._AC_UF894,1000_QL80_.jpg'
+}
+,
+{
+    name :'boku no hero academia',
+    rate :'6.5',
+    Imag :'https://m.media-amazon.com/images/M/MV5BOGZmYjdjN2UtNjAwZi00YmEyLWFhNTEtNjM1OTc5ODg0MGEyXkEyXkFqcGdeQXVyMTA1NjQyNjkw._V1_FMjpg_UX1000_.jpg'
+}
+];    

@@ -1,19 +1,58 @@
-.foot {
-  background-color: rgb(250, 0, 0);
-color: rgb(255, 255, 255);
-text-align: center;
-background-image:url('https://sport.tunisienumerique.com/wp-content/uploads/2020/11/club-africain-768x385.jpg');
-  background-size: cover;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.cardplay {
-display: flex;
-justify-content: space-around;
-margin: auto;
-background-color: rgba(255, 255, 255, 0.181);
+.mov{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  flex-wrap: wrap;
+  
+  
 }
-body{
-  background-image:url('https://sport.tunisienumerique.com/wp-content/uploads/2020/11/club-africain-768x385.jpg');
-  background-size: cover;
-  height: 300px;
+.list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.search-bar{
+  border: solid 1.5px #9e9e9e;
+  border-radius: 1rem;
+  background: none;
+  padding: 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #0c0808;
+}
+.Search-label{
+  position: absolute;
+  left: px;
+  color: #1f0101;
+  pointer-events: none;
+  transform: translate(1rem);
+  transition: 150ms ease;
+}
+.search-bar:focus,isearch-bar:valid{
+  outline: none;
+  border: 1.5px solid #1a73e8;
+}
+.search-bar:focus ~ label,search-bar:valid ~ label{
+  transform: translateY(-50%) scale(0.8);
+  background-color: rgb(253, 253, 253);
+  padding: 0.2em;
+  color: #1a73e8;
+}
+.header{
+  display: flex;
+  justify-content: center;
+  padding: 1px;
+  font-size: 60px;
+  color: red;
+  background-color: #0c0808;
 }

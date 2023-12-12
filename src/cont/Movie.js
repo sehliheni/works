@@ -1,17 +1,7 @@
-import React from 'react';
 import Card from 'react-bootstrap/Card';
-import { useState } from 'react';
-import ReactStars from "react-rating-stars-component";
-
-
-
+import { movies } from './Data';
 
 const Movie = ({movies}) => {
-  const [Rate, setRate] = useState(0);
-  const ratingChanged = (newRating) => {
-    setRate(newRating);
-      };
-
   return (
     //movies card
     <div className='mov'>  
@@ -21,18 +11,13 @@ const Movie = ({movies}) => {
       <Card.Img src={elm.Imag}></Card.Img>
       <Card.Text>
       <h4>Titel:{elm.name}</h4>
-      <ReactStars
-    count={5}
-    onChange={ratingChanged}
-    size={24}
-    activeColor="#ffd700"
-/>,
-  
+      <h4>Rate:{elm.rate}</h4>
       </Card.Text>
     </Card.Body>
-    
     </Card>
       ))}
+
+      
     </div>
   );
 }
